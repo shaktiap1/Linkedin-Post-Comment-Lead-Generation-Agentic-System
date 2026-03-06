@@ -1,0 +1,20 @@
+2026-03-06 17:38:26,236 | INFO | scraper.browser | Starting Playwright
+2026-03-06 17:46:37,467 | INFO | scraper.browser | Starting Playwright
+2026-03-06 17:46:38,515 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 17:46:44,664 | INFO | scraper.browser | Closing browser
+2026-03-06 17:52:46,050 | INFO | scraper.browser | Starting Playwright
+2026-03-06 17:52:46,766 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 17:52:46,766 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 17:52:48,704 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 17:52:54,881 | ERROR | scraper.linkedin_login | LinkedIn login may have failed
+2026-03-06 17:52:59,896 | INFO | scraper.browser | Closing browser
+2026-03-06 17:54:44,578 | INFO | scraper.browser | Starting Playwright
+2026-03-06 17:54:45,304 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 17:54:45,304 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 17:54:47,782 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 17:56:43,391 | INFO | scraper.browser | Starting Playwright
+2026-03-06 17:56:44,122 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 17:56:44,122 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 17:56:45,961 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 17:56:53,331 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 17:57:01,347 | INFO | scraper.browser | Closing browser

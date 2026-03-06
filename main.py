@@ -1,5 +1,21 @@
-from utils.hashing import generate_lead_hash
-from utils.time_utils import get_current_timestamp
+import asyncio
+from scraper.browser import BrowserManager
+from scraper.linkedin_login import LinkedInLogin
 
-print(generate_lead_hash("post", "profile", "comment"))
-print(get_current_timestamp())
+
+async def run():
+
+    browser = BrowserManager()
+
+    page = await browser.start()
+
+    login = LinkedInLogin(page)
+
+    await login.login()
+
+    await asyncio.sleep(5)
+
+    await browser.close()
+
+
+asyncio.run(run())

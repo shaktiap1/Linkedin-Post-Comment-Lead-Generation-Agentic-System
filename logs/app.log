@@ -18,3 +18,30 @@
 2026-03-06 17:56:45,961 | INFO | scraper.linkedin_login | Entering credentials
 2026-03-06 17:56:53,331 | INFO | scraper.linkedin_login | LinkedIn login successful
 2026-03-06 17:57:01,347 | INFO | scraper.browser | Closing browser
+2026-03-06 18:03:15,377 | INFO | scraper.browser | Starting Playwright
+2026-03-06 18:03:16,751 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 18:03:16,754 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 18:03:20,016 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 18:03:25,934 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 18:03:28,952 | INFO | scraper.comment_scroller | Opening LinkedIn post: PASTE_ANY_LINKEDIN_POST_URL_HERE
+2026-03-06 18:05:42,268 | INFO | scraper.browser | Starting Playwright
+2026-03-06 18:05:43,584 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 18:05:43,587 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 18:05:46,451 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 18:05:51,526 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 18:05:54,541 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 18:06:04,593 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 18:06:04,594 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 18:06:06,698 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 18:06:06,798 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 18:06:06,799 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 18:06:08,826 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 18:06:10,849 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 18:06:12,877 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 18:06:14,897 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 18:06:16,917 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 18:06:18,945 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 18:06:20,976 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 18:06:23,000 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 18:06:25,021 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 18:06:35,029 | INFO | scraper.browser | Closing browser

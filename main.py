@@ -3,30 +3,82 @@ import asyncio
 from scraper.browser import BrowserManager
 from scraper.linkedin_login import LinkedInLogin
 from scraper.comment_scroller import CommentScroller
+from scraper.comment_extractor import CommentExtractor
+from scraper.lead_processor import LeadProcessor
+
+from utils.logger import get_logger
+from config.settings import LINKEDIN_EMAIL, LINKEDIN_PASSWORD, POST_URL
 
 
-POST_URL = "https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4"
+logger = get_logger(__name__)
 
 
 async def run():
 
-    browser = BrowserManager()
+    browser_manager = BrowserManager()
 
-    page = await browser.start()
+    browser, page = await browser_manager.start()
 
-    login = LinkedInLogin(page)
+    try:
 
-    await login.login()
+        # -------------------------------
+        # STEP 1: LOGIN
+        # -------------------------------
 
-    scroller = CommentScroller(page)
+        login = LinkedInLogin(page)
 
-    await scroller.open_post(POST_URL)
-
-    await scroller.scroll_comments()
-
-    await asyncio.sleep(10)
-
-    await browser.close()
+        await login.login(LINKEDIN_EMAIL, LINKEDIN_PASSWORD)
 
 
-asyncio.run(run())
+        # -------------------------------
+        # STEP 2: OPEN POST + SCROLL
+        # -------------------------------
+
+        scroller = CommentScroller(page)
+
+        await scroller.open_post(POST_URL)
+
+        await scroller.scroll_comments()
+
+
+        # -------------------------------
+        # STEP 3: EXTRACT COMMENTS
+        # -------------------------------
+
+        extractor = CommentExtractor(page)
+
+        comments = await extractor.extract_comments()
+
+        logger.info(f"Total raw comments extracted: {len(comments)}")
+
+        print(comments)
+
+
+        # -------------------------------
+        # STEP 4: PROCESS LEADS
+        # -------------------------------
+
+        processor = LeadProcessor(comments)
+
+        unique_leads = processor.remove_duplicates()
+
+        logger.info(f"Unique leads found: {len(unique_leads)}")
+
+
+        # -------------------------------
+        # STEP 5: EXPORT CSV
+        # -------------------------------
+
+        processor.export_csv(unique_leads)
+
+        logger.info("Lead extraction pipeline completed successfully")
+
+
+    finally:
+
+        await browser_manager.close()
+
+
+if __name__ == "__main__":
+
+    asyncio.run(run())

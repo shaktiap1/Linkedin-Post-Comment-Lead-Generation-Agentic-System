@@ -1,15 +1,33 @@
-from tenacity import retry, stop_after_attempt, wait_exponential
-from config.settings import settings
+import asyncio
+from functools import wraps
 
 
-def retry_scraper():
+def async_retry(retries=3, delay=2):
 
-    return retry(
-        stop=stop_after_attempt(settings.scraper_retry_limit),
-        wait=wait_exponential(multiplier=1, min=2, max=10),
-        reraise=True
-    )
+    def decorator(func):
 
+        @wraps(func)
+        async def wrapper(*args, **kwargs):
+
+            last_exception = None
+
+            for attempt in range(retries):
+
+                try:
+                    return await func(*args, **kwargs)
+
+                except Exception as e:
+
+                    last_exception = e
+
+                    if attempt < retries - 1:
+                        await asyncio.sleep(delay)
+
+            raise last_exception
+
+        return wrapper
+
+    return decorator
 
 '''
 Iska Use Kaise Hoga

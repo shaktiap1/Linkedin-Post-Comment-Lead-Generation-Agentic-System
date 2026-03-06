@@ -45,3 +45,349 @@
 2026-03-06 18:06:23,000 | INFO | scraper.comment_scroller | Scroll iteration 10
 2026-03-06 18:06:25,021 | INFO | scraper.comment_scroller | Finished scrolling comments
 2026-03-06 18:06:35,029 | INFO | scraper.browser | Closing browser
+2026-03-06 18:14:25,224 | INFO | scraper.browser | Starting Playwright
+2026-03-06 18:14:26,781 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 18:14:26,781 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 18:14:32,339 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 18:14:36,920 | ERROR | scraper.linkedin_login | Login verification failed
+2026-03-06 18:14:39,924 | INFO | scraper.comment_scroller | Opening LinkedIn post: YOUR_LINKEDIN_POST_URL
+2026-03-06 18:15:20,869 | INFO | scraper.browser | Starting Playwright
+2026-03-06 18:15:22,146 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 18:15:22,147 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 18:15:25,991 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 18:15:31,267 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 18:15:34,279 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 18:15:44,315 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 18:15:44,316 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 18:15:46,397 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 18:15:46,526 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 18:15:46,527 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 18:15:48,553 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 18:15:50,579 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 18:15:52,611 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 18:15:54,634 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 18:15:56,657 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 18:15:58,679 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 18:16:00,700 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 18:16:02,732 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 18:16:04,758 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 18:16:04,759 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 18:16:04,771 | INFO | scraper.comment_extractor | Found 0 comment containers
+2026-03-06 18:16:04,772 | INFO | scraper.comment_extractor | Extracted 0 comments
+2026-03-06 18:16:14,782 | INFO | scraper.browser | Closing browser
+2026-03-06 18:17:50,882 | INFO | scraper.browser | Starting Playwright
+2026-03-06 18:17:52,364 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 18:17:52,366 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 18:17:55,941 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 18:18:01,694 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 18:18:04,705 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 18:18:14,996 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 18:18:14,997 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 18:18:17,094 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 18:18:17,240 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 18:18:17,240 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 18:18:19,338 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 18:18:21,378 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 18:18:23,402 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 18:18:25,420 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 18:18:27,445 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 18:18:29,476 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 18:18:31,495 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 18:18:33,512 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 18:18:35,538 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 18:18:35,540 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 18:18:35,574 | INFO | scraper.comment_extractor | Total comment containers: 0
+2026-03-06 18:18:35,574 | INFO | scraper.comment_extractor | Extracted 0 comments
+2026-03-06 18:18:45,587 | INFO | scraper.browser | Closing browser
+2026-03-06 18:34:57,590 | INFO | scraper.browser | Starting Playwright
+2026-03-06 18:34:59,208 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 18:34:59,211 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 18:35:03,534 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 18:35:08,858 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 18:35:11,861 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 18:35:21,897 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 18:35:21,898 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 18:35:23,995 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 18:35:24,158 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 18:35:24,159 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 18:35:26,182 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 18:35:28,208 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 18:35:30,237 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 18:35:32,259 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 18:35:34,278 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 18:35:36,299 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 18:35:38,326 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 18:35:40,353 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 18:35:42,379 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 18:35:42,379 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 18:35:42,429 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-06 18:35:42,430 | INFO | scraper.comment_extractor | Total comment containers: 23
+2026-03-06 18:35:43,700 | INFO | scraper.comment_extractor | Extracted 23 comments
+2026-03-06 18:35:53,712 | INFO | scraper.browser | Closing browser
+2026-03-06 18:43:35,601 | INFO | scraper.browser | Starting Playwright
+2026-03-06 18:43:36,939 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 18:43:36,940 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 18:43:40,146 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 18:43:45,449 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 18:43:48,457 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 18:44:03,179 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 18:44:03,180 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 18:44:05,256 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 18:44:05,345 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 18:44:05,345 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 18:44:07,377 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 18:44:09,405 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 18:44:11,428 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 18:44:13,448 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 18:44:15,477 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 18:44:17,509 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 18:44:19,525 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 18:44:21,552 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 18:44:23,578 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 18:44:23,579 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 18:44:23,625 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-06 18:44:23,626 | INFO | scraper.comment_extractor | Total comment containers: 23
+2026-03-06 18:44:25,291 | INFO | scraper.comment_extractor | Extracted 23 comments
+2026-03-06 18:44:35,308 | INFO | scraper.browser | Closing browser
+2026-03-06 18:47:33,098 | INFO | scraper.browser | Starting Playwright
+2026-03-06 18:47:34,483 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 18:47:34,483 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 18:47:37,915 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 18:47:43,723 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 18:47:46,745 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 18:47:56,738 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 18:47:56,738 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 18:47:58,813 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 18:47:58,965 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 18:47:58,965 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 18:48:00,992 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 18:48:03,008 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 18:48:05,030 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 18:48:07,064 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 18:48:09,095 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 18:48:11,128 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 18:48:13,150 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 18:48:15,169 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 18:48:17,190 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 18:48:17,191 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 18:48:17,245 | INFO | scraper.comment_extractor | Total comment containers: 23
+2026-03-06 18:48:18,079 | INFO | scraper.comment_extractor | Extracted 0 comments
+2026-03-06 18:48:28,085 | INFO | scraper.browser | Closing browser
+2026-03-06 18:54:02,356 | INFO | scraper.browser | Starting Playwright
+2026-03-06 18:54:03,825 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 18:54:03,825 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 18:54:07,067 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 18:54:12,787 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 18:54:15,799 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 18:54:25,770 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 18:54:25,770 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 18:54:27,840 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 18:54:27,953 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 18:54:27,956 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 18:54:30,034 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 18:54:32,052 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 18:54:34,072 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 18:54:36,093 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 18:54:38,114 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 18:54:40,141 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 18:54:42,157 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 18:54:44,199 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 18:54:46,214 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 18:54:46,215 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 18:58:36,611 | INFO | scraper.browser | Starting Playwright
+2026-03-06 18:58:37,665 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 18:58:37,665 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 18:58:40,457 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 18:58:45,214 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 18:58:48,219 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 18:58:56,313 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 18:58:56,314 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 18:58:58,391 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 18:58:58,533 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 18:58:58,534 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 18:59:00,554 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 18:59:02,585 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 18:59:04,604 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 18:59:06,632 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 18:59:08,648 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 18:59:10,676 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 18:59:12,700 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 18:59:14,724 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 18:59:16,743 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 18:59:16,744 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 18:59:16,780 | INFO | scraper.comment_extractor | Total comment containers: 23
+2026-03-06 18:59:17,381 | INFO | scraper.comment_extractor | Extracted 0 comments
+2026-03-06 18:59:27,389 | INFO | scraper.browser | Closing browser
+2026-03-06 19:05:27,320 | INFO | scraper.browser | Starting Playwright
+2026-03-06 19:05:28,350 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 19:05:28,351 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 19:05:31,708 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 19:05:36,980 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 19:05:39,990 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 19:05:50,761 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 19:05:50,761 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 19:05:52,825 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 19:05:53,021 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 19:05:53,045 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 19:05:55,076 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 19:05:57,107 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 19:05:59,131 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 19:06:01,162 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 19:06:03,191 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 19:06:05,219 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 19:06:07,244 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 19:06:09,268 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 19:06:11,293 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 19:06:11,294 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 19:06:11,335 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-06 19:06:11,336 | INFO | scraper.comment_extractor | Total comment containers: 23
+2026-03-06 19:06:12,965 | INFO | scraper.comment_extractor | Extracted 23 comments
+2026-03-06 19:06:22,967 | INFO | scraper.browser | Closing browser
+2026-03-06 19:09:24,173 | INFO | scraper.browser | Starting Playwright
+2026-03-06 19:09:25,182 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 19:09:25,182 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 19:09:27,843 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 19:09:32,868 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 19:09:35,877 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 19:09:44,102 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 19:09:44,103 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 19:09:46,179 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 19:09:46,299 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 19:09:46,299 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 19:09:48,319 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 19:09:50,343 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 19:09:52,373 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 19:09:54,403 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 19:09:56,425 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 19:09:58,449 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 19:10:00,468 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 19:10:02,492 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 19:10:04,513 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 19:10:04,513 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 19:10:04,547 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-06 19:10:04,549 | INFO | scraper.comment_extractor | Total comment containers: 23
+2026-03-06 19:10:05,524 | INFO | scraper.comment_extractor | Extracted 23 comments
+2026-03-06 19:10:15,537 | INFO | scraper.browser | Closing browser
+2026-03-06 19:51:31,099 | INFO | scraper.browser | Starting Playwright
+2026-03-06 19:51:32,189 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 19:51:32,189 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 19:51:35,285 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 19:51:39,308 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 19:51:42,322 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 19:51:50,123 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 19:51:50,124 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 19:51:52,174 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 19:51:54,255 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 19:51:56,269 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 19:51:58,288 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 19:52:00,347 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 19:52:02,379 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 19:52:04,402 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 19:52:06,424 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 19:52:08,435 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 19:52:10,448 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 19:52:12,466 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 19:52:12,467 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 19:52:12,501 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-06 19:52:12,501 | INFO | scraper.comment_extractor | Total comment containers: 23
+2026-03-06 19:52:13,143 | INFO | scraper.comment_extractor | Extracted 23 comments
+2026-03-06 19:52:23,146 | INFO | scraper.browser | Closing browser
+2026-03-06 20:02:27,269 | INFO | scraper.browser | Starting Playwright
+2026-03-06 20:02:28,778 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 20:02:28,779 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 20:02:32,647 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 20:02:38,264 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 20:02:41,280 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 20:02:57,200 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 20:02:57,204 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 20:02:59,285 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 20:02:59,482 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 20:02:59,487 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 20:03:01,544 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 20:03:03,580 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 20:03:05,617 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 20:03:07,642 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 20:03:09,686 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 20:03:11,719 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 20:03:13,751 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 20:03:15,793 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 20:03:17,845 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 20:03:17,850 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 20:03:17,997 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-06 20:03:18,005 | INFO | scraper.comment_extractor | Total comment containers: 23
+2026-03-06 20:03:19,632 | INFO | scraper.comment_extractor | Extracted 23 comments
+2026-03-06 20:03:29,634 | INFO | scraper.browser | Closing browser
+2026-03-06 20:11:11,060 | INFO | scraper.browser | Starting Playwright
+2026-03-06 20:11:12,440 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 20:11:12,442 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 20:11:15,895 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 20:11:20,797 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 20:11:23,813 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 20:11:35,234 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 20:11:35,235 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 20:11:37,299 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 20:11:37,431 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 20:11:37,432 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 20:11:39,461 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 20:11:41,580 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 20:11:43,674 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 20:11:45,702 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 20:11:47,771 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 20:11:49,799 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 20:11:51,817 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 20:11:53,836 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 20:11:55,864 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 20:11:55,865 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 20:11:55,937 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-06 20:11:55,937 | INFO | scraper.comment_extractor | Total comment containers: 23
+2026-03-06 20:11:57,408 | INFO | scraper.comment_extractor | Extracted 23 comments
+2026-03-06 20:12:07,417 | INFO | scraper.browser | Closing browser
+2026-03-06 20:12:42,318 | INFO | scraper.browser | Starting Playwright
+2026-03-06 20:12:43,942 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 20:12:43,942 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 20:12:48,623 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 20:12:55,228 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 20:12:58,235 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 20:13:10,798 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 20:13:10,806 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 20:13:12,997 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 20:13:13,299 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-06 20:13:13,299 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 20:13:15,348 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 20:13:17,410 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 20:13:19,445 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 20:13:21,480 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 20:13:23,519 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 20:13:25,545 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 20:13:27,566 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 20:13:29,599 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 20:13:31,626 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 20:13:31,627 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 20:13:31,710 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-06 20:13:31,711 | INFO | scraper.comment_extractor | Total comment containers: 23
+2026-03-06 20:13:33,453 | INFO | scraper.comment_extractor | Extracted 23 comments
+2026-03-06 20:13:43,467 | INFO | scraper.browser | Closing browser
+2026-03-06 20:20:28,564 | INFO | scraper.browser | Starting Playwright
+2026-03-06 20:20:30,177 | INFO | scraper.browser | Browser launched successfully
+2026-03-06 20:20:30,179 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-06 20:20:36,209 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-06 20:20:44,884 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-06 20:20:47,890 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-06 20:21:06,200 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-06 20:21:06,201 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-06 20:21:08,573 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-06 20:21:12,448 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-06 20:21:15,458 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-06 20:21:19,172 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-06 20:21:21,455 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-06 20:21:23,479 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-06 20:21:25,503 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-06 20:21:27,544 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-06 20:21:29,585 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-06 20:21:31,613 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-06 20:21:33,650 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-06 20:21:33,651 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-06 20:21:33,722 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-06 20:21:33,722 | INFO | scraper.comment_extractor | Total comment containers: 23
+2026-03-06 20:21:35,167 | INFO | scraper.comment_extractor | Extracted 23 comments
+2026-03-06 20:21:45,172 | INFO | scraper.browser | Closing browser

@@ -33,3 +33,48 @@ class LeadDeduplicator:
         raw_key = f"{post_url}|{profile_url}|{comment_text}"
 
         return hashlib.sha256(raw_key.encode()).hexdigest()
+    
+
+
+'''
+How Deduplication Works
+
+Example input:
+
+[
+ {"name": "Harpreet", "profile": "...", "comment": "Congrats"},
+ {"name": "Harpreet", "profile": "...", "comment": "Congrats"},
+ {"name": "Priyanshi", "profile": "...", "comment": "Amazing"}
+]
+
+Hash keys generated:
+
+hash(post + harpreet + congrats)
+hash(post + harpreet + congrats) ← duplicate
+hash(post + priyanshi + amazing)
+
+Output:
+
+[
+ {"name": "Harpreet", "profile": "...", "comment": "Congrats"},
+ {"name": "Priyanshi", "profile": "...", "comment": "Amazing"}
+]
+
+
+
+Why Hashing Is Used
+
+Hashing ensures:
+
+O(1) duplicate detection
+
+memory-efficient storage
+
+fast lookups
+
+Using:
+
+SHA256
+
+which is collision resistant.
+'''

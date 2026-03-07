@@ -30,3 +30,28 @@ class LeadBuilder:
     def _timestamp(self):
 
         return datetime.utcnow().isoformat()
+    
+
+'''
+Example Transformation
+Input
+[
+ {
+  "commenter_name": "Harpreet Singh",
+  "commenter_profile_url": "linkedin.com/in/harpreet",
+  "comment_text": "Yeah Champ you are already in top 1%",
+  "email": None
+ }
+]
+Output
+[
+ {
+  "extracted_at": "2026-03-06T20:21:33.238921",
+  "post_url": "https://linkedin.com/post/...",
+  "commenter_name": "Harpreet Singh",
+  "commenter_profile_url": "linkedin.com/in/harpreet",
+  "comment_text": "Yeah Champ you are already in top 1%",
+  "email": None
+ }
+]
+'''

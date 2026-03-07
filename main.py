@@ -4,35 +4,47 @@ from scraper.browser import BrowserManager
 from scraper.linkedin_login import LinkedInLogin
 from scraper.comment_scroller import CommentScroller
 from scraper.comment_extractor import CommentExtractor
-from scraper.lead_processor import LeadProcessor
 
+from processing.comment_normalizer import CommentNormalizer
+from processing.email_extractor import EmailExtractor
+from processing.deduplicator import LeadDeduplicator
+from processing.lead_builder import LeadBuilder
+
+from sheets.sheets_writer import SheetsWriter
+
+from config.settings import settings
 from utils.logger import get_logger
-from config.settings import LINKEDIN_EMAIL, LINKEDIN_PASSWORD, POST_URL
 
 
 logger = get_logger(__name__)
 
 
+POST_URL = "PASTE_LINKEDIN_POST_URL_HERE"
+
+
 async def run():
+
+    logger.info("Starting LinkedIn Lead Extraction System")
 
     browser_manager = BrowserManager()
 
-    browser, page = await browser_manager.start()
+    await browser_manager.start()
+
+    page = await browser_manager.new_page()
 
     try:
 
-        # -------------------------------
-        # STEP 1: LOGIN
-        # -------------------------------
+        # -----------------------------
+        # LOGIN
+        # -----------------------------
 
         login = LinkedInLogin(page)
 
-        await login.login(LINKEDIN_EMAIL, LINKEDIN_PASSWORD)
+        await login.login()
 
-
-        # -------------------------------
-        # STEP 2: OPEN POST + SCROLL
-        # -------------------------------
+        # -----------------------------
+        # OPEN POST
+        # -----------------------------
 
         scroller = CommentScroller(page)
 
@@ -40,39 +52,67 @@ async def run():
 
         await scroller.scroll_comments()
 
-
-        # -------------------------------
-        # STEP 3: EXTRACT COMMENTS
-        # -------------------------------
+        # -----------------------------
+        # EXTRACT COMMENTS
+        # -----------------------------
 
         extractor = CommentExtractor(page)
 
         comments = await extractor.extract_comments()
 
-        logger.info(f"Total raw comments extracted: {len(comments)}")
+        logger.info(f"Extracted {len(comments)} raw comments")
 
-        print(comments)
+        # -----------------------------
+        # NORMALIZE COMMENTS
+        # -----------------------------
 
+        normalizer = CommentNormalizer(comments)
 
-        # -------------------------------
-        # STEP 4: PROCESS LEADS
-        # -------------------------------
+        normalized_comments = normalizer.normalize()
 
-        processor = LeadProcessor(comments)
+        # -----------------------------
+        # EMAIL EXTRACTION
+        # -----------------------------
 
-        unique_leads = processor.remove_duplicates()
+        email_extractor = EmailExtractor(normalized_comments)
 
-        logger.info(f"Unique leads found: {len(unique_leads)}")
+        comments_with_email = email_extractor.extract()
 
+        # -----------------------------
+        # DEDUPLICATION
+        # -----------------------------
 
-        # -------------------------------
-        # STEP 5: EXPORT CSV
-        # -------------------------------
+        deduplicator = LeadDeduplicator(
+            comments_with_email,
+            POST_URL
+        )
 
-        processor.export_csv(unique_leads)
+        unique_comments = deduplicator.deduplicate()
 
-        logger.info("Lead extraction pipeline completed successfully")
+        logger.info(f"{len(unique_comments)} comments after deduplication")
 
+        # -----------------------------
+        # BUILD FINAL LEADS
+        # -----------------------------
+
+        builder = LeadBuilder(unique_comments, POST_URL)
+
+        leads = builder.build()
+
+        logger.info(f"{len(leads)} structured leads generated")
+
+        # -----------------------------
+        # WRITE OUTPUT
+        # -----------------------------
+
+        writer = SheetsWriter(
+            settings.GOOGLE_SERVICE_ACCOUNT_FILE,
+            settings.GOOGLE_SHEET_NAME
+        )
+
+        writer.write(leads)
+
+        logger.info("Lead export completed")
 
     finally:
 

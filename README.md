@@ -6,6 +6,13 @@ The system uses browser automation to open LinkedIn posts, scroll through commen
 
 ---
 
+# DEMO VIDEO : https://drive.google.com/file/d/11x5ikG3WZbY0a-mUi_ubElSm4Di1Vbws/view?usp=sharing
+
+# Google Sheets Link : https://docs.google.com/spreadsheets/d/1bBQpcS88dAJTQ3JaY88t__pKb8LWYTyw0Q1GTAAcCuE/edit?usp=sharing
+
+# DOCUMENTATION ( for each Phase of this Project ) : https://docs.google.com/document/d/18vMiE74JpfKt7SXwf0ZhZIgsb5Zza8Af4rDXVDJUfyE/edit?usp=sharing
+
+
 # Overview
 
 LinkedIn posts often generate engagement from potential customers, collaborators, and decision makers. However, manually collecting leads from comment sections is slow and inefficient.

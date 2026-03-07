@@ -391,3 +391,192 @@
 2026-03-06 20:21:33,722 | INFO | scraper.comment_extractor | Total comment containers: 23
 2026-03-06 20:21:35,167 | INFO | scraper.comment_extractor | Extracted 23 comments
 2026-03-06 20:21:45,172 | INFO | scraper.browser | Closing browser
+2026-03-07 05:38:19,717 | INFO | __main__ | Starting LinkedIn Lead Extraction System
+2026-03-07 05:38:19,718 | INFO | scraper.browser | Starting Playwright
+2026-03-07 05:38:34,729 | INFO | scraper.browser | Browser launched successfully
+2026-03-07 05:39:15,121 | INFO | __main__ | Starting LinkedIn Lead Extraction System
+2026-03-07 05:39:15,121 | INFO | scraper.browser | Starting Playwright
+2026-03-07 05:39:16,465 | INFO | scraper.browser | Browser launched successfully
+2026-03-07 05:39:38,181 | INFO | __main__ | Starting LinkedIn Lead Extraction System
+2026-03-07 05:39:38,181 | INFO | scraper.browser | Starting Playwright
+2026-03-07 05:39:39,520 | INFO | scraper.browser | Browser launched successfully
+2026-03-07 05:54:38,117 | INFO | __main__ | Starting LinkedIn Lead Extraction System
+2026-03-07 05:54:38,118 | INFO | scraper.browser | Starting Playwright
+2026-03-07 05:54:39,348 | INFO | scraper.browser | Browser launched successfully
+2026-03-07 05:54:39,349 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-07 05:54:43,558 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-07 05:54:50,510 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-07 05:54:53,526 | INFO | scraper.comment_scroller | Opening LinkedIn post: PASTE_LINKEDIN_POST_URL_HERE
+2026-03-07 05:54:53,548 | INFO | scraper.browser | Closing browser
+2026-03-07 05:56:20,901 | INFO | __main__ | Starting LinkedIn Lead Extraction System
+2026-03-07 05:56:20,903 | INFO | scraper.browser | Starting Playwright
+2026-03-07 05:56:22,301 | INFO | scraper.browser | Browser launched successfully
+2026-03-07 05:56:22,302 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-07 05:56:25,400 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-07 05:56:39,157 | ERROR | scraper.linkedin_login | Login verification failed
+2026-03-07 05:56:42,166 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-07 05:57:12,185 | INFO | scraper.browser | Closing browser
+2026-03-07 05:57:22,366 | INFO | __main__ | Starting LinkedIn Lead Extraction System
+2026-03-07 05:57:22,367 | INFO | scraper.browser | Starting Playwright
+2026-03-07 05:57:23,729 | INFO | scraper.browser | Browser launched successfully
+2026-03-07 05:57:23,729 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-07 05:57:26,669 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-07 05:57:32,244 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-07 05:57:35,256 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-07 05:57:44,867 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-07 05:57:44,868 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-07 05:57:46,979 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-07 05:57:47,078 | WARNING | scraper.comment_scroller | Load more comments button not found
+2026-03-07 05:57:47,079 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-07 05:57:49,119 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-07 05:57:51,170 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-07 05:57:53,197 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-07 05:57:55,222 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-07 05:57:57,242 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-07 05:57:59,267 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-07 05:58:01,293 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-07 05:58:03,322 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-07 05:58:05,347 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-07 05:58:05,348 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-07 05:58:05,434 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-07 05:58:05,435 | INFO | scraper.comment_extractor | Total comment containers: 24
+2026-03-07 05:58:07,279 | INFO | scraper.comment_extractor | Extracted 24 comments
+2026-03-07 05:58:07,279 | INFO | __main__ | Extracted 24 raw comments
+2026-03-07 05:58:07,281 | INFO | __main__ | 24 comments after deduplication
+2026-03-07 05:58:07,282 | INFO | __main__ | 24 structured leads generated
+2026-03-07 05:58:07,282 | INFO | scraper.browser | Closing browser
+2026-03-07 06:03:35,218 | INFO | __main__ | Starting LinkedIn Lead Extraction System
+2026-03-07 06:03:35,219 | INFO | scraper.browser | Starting Playwright
+2026-03-07 06:03:36,652 | INFO | scraper.browser | Browser launched successfully
+2026-03-07 06:03:36,652 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-07 06:03:39,703 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-07 06:03:44,777 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-07 06:03:47,786 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-07 06:03:57,470 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-07 06:03:57,471 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-07 06:03:59,548 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-07 06:04:01,713 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-07 06:04:03,741 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-07 06:04:05,761 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-07 06:04:07,784 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-07 06:04:09,818 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-07 06:04:11,849 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-07 06:04:13,879 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-07 06:04:15,909 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-07 06:04:17,933 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-07 06:04:19,954 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-07 06:04:19,955 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-07 06:04:20,018 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-07 06:04:20,018 | INFO | scraper.comment_extractor | Total comment containers: 24
+2026-03-07 06:04:21,653 | INFO | scraper.comment_extractor | Extracted 24 comments
+2026-03-07 06:04:21,654 | INFO | __main__ | Extracted 24 raw comments
+2026-03-07 06:04:21,655 | INFO | __main__ | 24 comments after deduplication
+2026-03-07 06:04:21,655 | INFO | __main__ | 24 structured leads generated
+2026-03-07 06:04:21,656 | INFO | sheets.sheets_writer | Writing leads to Google Sheets
+2026-03-07 06:04:23,713 | ERROR | sheets.sheets_writer | Google Sheets write failed
+2026-03-07 06:04:23,714 | ERROR | sheets.sheets_writer | APIError: [403]: Google Drive API has not been used in project 576453506776 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=576453506776 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+2026-03-07 06:04:23,735 | INFO | sheets.sheets_writer | Writing CSV backup
+2026-03-07 06:04:23,745 | INFO | sheets.sheets_writer | CSV backup saved
+2026-03-07 06:04:23,746 | INFO | __main__ | Lead export completed
+2026-03-07 06:04:23,748 | INFO | scraper.browser | Closing browser
+2026-03-07 06:10:37,784 | INFO | __main__ | Starting LinkedIn Lead Extraction System
+2026-03-07 06:10:37,785 | INFO | scraper.browser | Starting Playwright
+2026-03-07 06:10:39,302 | INFO | scraper.browser | Browser launched successfully
+2026-03-07 06:10:39,304 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-07 06:10:42,530 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-07 06:10:47,677 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-07 06:10:50,683 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-07 06:10:59,928 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-07 06:10:59,932 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-07 06:11:02,013 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-07 06:11:04,143 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-07 06:11:06,164 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-07 06:11:08,188 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-07 06:11:10,211 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-07 06:11:12,231 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-07 06:11:14,254 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-07 06:11:16,278 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-07 06:11:18,303 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-07 06:11:20,323 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-07 06:11:22,351 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-07 06:11:22,351 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-07 06:11:22,413 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-07 06:11:22,414 | INFO | scraper.comment_extractor | Total comment containers: 24
+2026-03-07 06:11:24,011 | INFO | scraper.comment_extractor | Extracted 24 comments
+2026-03-07 06:11:24,011 | INFO | __main__ | Extracted 24 raw comments
+2026-03-07 06:11:24,012 | INFO | __main__ | 24 comments after deduplication
+2026-03-07 06:11:24,013 | INFO | __main__ | 24 structured leads generated
+2026-03-07 06:11:24,013 | INFO | sheets.sheets_writer | Writing leads to Google Sheets
+2026-03-07 06:11:25,888 | ERROR | sheets.sheets_writer | Google Sheets write failed
+2026-03-07 06:11:25,890 | ERROR | sheets.sheets_writer | APIError: [403]: Google Drive API has not been used in project 576453506776 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=576453506776 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+2026-03-07 06:11:25,894 | INFO | sheets.sheets_writer | Writing CSV backup
+2026-03-07 06:11:25,896 | INFO | sheets.sheets_writer | CSV backup saved
+2026-03-07 06:11:25,897 | INFO | __main__ | Lead export completed
+2026-03-07 06:11:25,903 | INFO | scraper.browser | Closing browser
+2026-03-07 06:14:08,607 | INFO | __main__ | Starting LinkedIn Lead Extraction System
+2026-03-07 06:14:08,608 | INFO | scraper.browser | Starting Playwright
+2026-03-07 06:14:09,972 | INFO | scraper.browser | Browser launched successfully
+2026-03-07 06:14:09,973 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-07 06:14:12,953 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-07 06:14:18,475 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-07 06:14:21,492 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-07 06:14:32,229 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-07 06:14:32,230 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-07 06:14:34,303 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-07 06:14:36,465 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-07 06:14:38,486 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-07 06:14:40,510 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-07 06:14:42,535 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-07 06:14:44,573 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-07 06:14:46,597 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-07 06:14:48,628 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-07 06:14:50,649 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-07 06:14:52,672 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-07 06:14:54,698 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-07 06:14:54,699 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-07 06:14:54,761 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-07 06:14:54,762 | INFO | scraper.comment_extractor | Total comment containers: 24
+2026-03-07 06:14:56,395 | INFO | scraper.comment_extractor | Extracted 24 comments
+2026-03-07 06:14:56,395 | INFO | __main__ | Extracted 24 raw comments
+2026-03-07 06:14:56,397 | INFO | __main__ | 24 comments after deduplication
+2026-03-07 06:14:56,398 | INFO | __main__ | 24 structured leads generated
+2026-03-07 06:14:56,398 | INFO | sheets.sheets_writer | Writing leads to Google Sheets
+2026-03-07 06:14:58,253 | ERROR | sheets.sheets_writer | Google Sheets write failed
+2026-03-07 06:14:58,253 | ERROR | sheets.sheets_writer | APIError: [403]: Google Drive API has not been used in project 576453506776 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=576453506776 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+2026-03-07 06:14:58,258 | INFO | sheets.sheets_writer | Writing CSV backup
+2026-03-07 06:14:58,260 | INFO | sheets.sheets_writer | CSV backup saved
+2026-03-07 06:14:58,262 | INFO | __main__ | Lead export completed
+2026-03-07 06:14:58,262 | INFO | scraper.browser | Closing browser
+2026-03-07 06:15:49,809 | INFO | __main__ | Starting LinkedIn Lead Extraction System
+2026-03-07 06:15:49,810 | INFO | scraper.browser | Starting Playwright
+2026-03-07 06:15:51,222 | INFO | scraper.browser | Browser launched successfully
+2026-03-07 06:15:51,222 | INFO | scraper.linkedin_login | Navigating to LinkedIn login page
+2026-03-07 06:15:53,914 | INFO | scraper.linkedin_login | Entering credentials
+2026-03-07 06:15:59,075 | INFO | scraper.linkedin_login | LinkedIn login successful
+2026-03-07 06:16:02,084 | INFO | scraper.comment_scroller | Opening LinkedIn post: https://www.linkedin.com/posts/shaktesh-pandey-3a2936245_most-transformed-students-award-goes-to-activity-7434753641732939776-P5bp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADzUGaoBsNWoHsC-PjTuvyq3zhztiMg0GB4
+2026-03-07 06:16:12,032 | INFO | scraper.comment_scroller | Starting comment scrolling
+2026-03-07 06:16:12,033 | INFO | scraper.comment_scroller | Scroll iteration 1
+2026-03-07 06:16:14,099 | INFO | scraper.comment_scroller | Clicking load more comments
+2026-03-07 06:16:16,306 | INFO | scraper.comment_scroller | Scroll iteration 2
+2026-03-07 06:16:18,334 | INFO | scraper.comment_scroller | Scroll iteration 3
+2026-03-07 06:16:20,357 | INFO | scraper.comment_scroller | Scroll iteration 4
+2026-03-07 06:16:22,387 | INFO | scraper.comment_scroller | Scroll iteration 5
+2026-03-07 06:16:24,416 | INFO | scraper.comment_scroller | Scroll iteration 6
+2026-03-07 06:16:26,451 | INFO | scraper.comment_scroller | Scroll iteration 7
+2026-03-07 06:16:28,485 | INFO | scraper.comment_scroller | Scroll iteration 8
+2026-03-07 06:16:30,503 | INFO | scraper.comment_scroller | Scroll iteration 9
+2026-03-07 06:16:32,529 | INFO | scraper.comment_scroller | Scroll iteration 10
+2026-03-07 06:16:34,557 | INFO | scraper.comment_scroller | Finished scrolling comments
+2026-03-07 06:16:34,558 | INFO | scraper.comment_extractor | Extracting comments from page
+2026-03-07 06:16:34,630 | INFO | scraper.comment_extractor | Found containers using selector: article.comments-comment-entity
+2026-03-07 06:16:34,631 | INFO | scraper.comment_extractor | Total comment containers: 24
+2026-03-07 06:16:36,367 | INFO | scraper.comment_extractor | Extracted 24 comments
+2026-03-07 06:16:36,367 | INFO | __main__ | Extracted 24 raw comments
+2026-03-07 06:16:36,369 | INFO | __main__ | 24 comments after deduplication
+2026-03-07 06:16:36,370 | INFO | __main__ | 24 structured leads generated
+2026-03-07 06:16:36,370 | INFO | sheets.sheets_writer | Writing leads to Google Sheets
+2026-03-07 06:16:40,782 | INFO | sheets.sheets_writer | 24 leads written to Google Sheets
+2026-03-07 06:16:40,789 | INFO | sheets.sheets_writer | Writing CSV backup
+2026-03-07 06:16:40,791 | INFO | sheets.sheets_writer | CSV backup saved
+2026-03-07 06:16:40,806 | INFO | __main__ | Lead export completed
+2026-03-07 06:16:40,808 | INFO | scraper.browser | Closing browser

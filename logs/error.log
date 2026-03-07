@@ -1,2 +1,9 @@
 2026-03-06 17:52:54,881 | ERROR | scraper.linkedin_login | LinkedIn login may have failed
 2026-03-06 18:14:36,920 | ERROR | scraper.linkedin_login | Login verification failed
+2026-03-07 05:56:39,157 | ERROR | scraper.linkedin_login | Login verification failed
+2026-03-07 06:04:23,713 | ERROR | sheets.sheets_writer | Google Sheets write failed
+2026-03-07 06:04:23,714 | ERROR | sheets.sheets_writer | APIError: [403]: Google Drive API has not been used in project 576453506776 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=576453506776 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+2026-03-07 06:11:25,888 | ERROR | sheets.sheets_writer | Google Sheets write failed
+2026-03-07 06:11:25,890 | ERROR | sheets.sheets_writer | APIError: [403]: Google Drive API has not been used in project 576453506776 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=576453506776 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
+2026-03-07 06:14:58,253 | ERROR | sheets.sheets_writer | Google Sheets write failed
+2026-03-07 06:14:58,253 | ERROR | sheets.sheets_writer | APIError: [403]: Google Drive API has not been used in project 576453506776 before or it is disabled. Enable it by visiting https://console.developers.google.com/apis/api/drive.googleapis.com/overview?project=576453506776 then retry. If you enabled this API recently, wait a few minutes for the action to propagate to our systems and retry.
